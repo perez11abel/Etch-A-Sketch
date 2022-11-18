@@ -14,6 +14,7 @@ for(let i = 0; i < amount; i++) {
     let square = document.createElement("div");
     square.addEventListener('mouseover', colorSquare);
     square.style.backgroundColor = 'white';
+    //square divs are going to be created in the board div
     board.insertAdjacentElement('beforeend', square);
     }
 }
